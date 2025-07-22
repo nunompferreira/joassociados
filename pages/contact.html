@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacte a Joaquim Oliveira & Associados - Encontre o nosso escritório em Lisboa. Telefone, email e formulário de contacto.">
+    <title>Contactos - Joaquim Oliveira & Associados</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <a href="../index.html">Joaquim Oliveira & Associados</a>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">A Firma</a>
+                </li>
+                <li class="nav-item">
+                    <a href="practice-areas.html" class="nav-link">Áreas de Prática</a>
+                    <div class="dropdown">
+                        <div class="dropdown-item">
+                            <a href="areas/corporate.html" class="dropdown-link">Direito Societário</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <a href="areas/labor.html" class="dropdown-link">Direito do Trabalho</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <a href="areas/real-estate.html" class="dropdown-link">Direito Imobiliário</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <a href="areas/intellectual.html" class="dropdown-link">Propriedade Intelectual</a>
+                        </div>
+                        <div class="dropdown-item">
+                            <a href="areas/tax.html" class="dropdown-link">Direito Fiscal</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="team.html" class="nav-link">A Equipa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link">Notícias</a>
+                </li>
+                <li class="nav-item">
+                    <a href="careers.html" class="nav-link">Carreiras</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link" style="color: var(--accent-color);">Contactos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="min-height: 60vh;">
+        <video autoplay muted loop playsinline id="hero-video">
+            <source src="../assets/img/introJOA.webm" type="video/webm">
+        </video>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>Contactos</h1>
+                <p class="hero-slogan">Estamos aqui para o ajudar</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Lisboa Office -->
+                <div class="practice-card fade-in">
+                    <div class="practice-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Escritório de Lisboa</h3>
+                    <p><strong>Avenida João Crisóstomo, Nº30 - 3º - 1050-127 Lisboa</strong><br>
+                    1250-140 Lisboa</p>
+                    <div style="margin: 1rem 0;">
+                        <p><i class="fas fa-phone" style="margin-right: 0.5rem; color: var(--accent-color);"></i> +351 213 144 434</p>
+                        <p><i class="fas fa-fax" style="margin-right: 0.5rem; color: var(--accent-color);"></i> +351 213 144 435</p>
+                        <p><i class="fas fa-envelope" style="margin-right: 0.5rem; color: var(--accent-color);"></i> geral@joaquimoliveira.pt</p>
+                    </div>
+                    <p><strong>Horário:</strong><br>
+                    Segunda a Sexta: 9:00 - 13:00 e das 14:00 as 18:00</p>
+                </div>
+
+                <!-- Emergency Contact -->
+                <div class="practice-card fade-in">
+                    <div class="practice-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Contacto de Urgência</h3>
+                    <p>Para assuntos urgentes fora do horário normal de funcionamento.</p>
+                    <div style="margin: 1rem 0;">
+                        <p><i class="fas fa-phone" style="margin-right: 0.5rem; color: var(--accent-color);"></i> +351 91 213 1444</p>
+                        <p><i class="fas fa-envelope" style="margin-right: 0.5rem; color: var(--accent-color);"></i> urgencias@joaquimoliveira.pt</p>
+                    </div>
+                    <p><strong>Disponível:</strong><br>
+                    24 horas por dia, 7 dias por semana<br>
+                    (Apenas para clientes existentes)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form and Map -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Entre em Contacto</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="fade-in">
+                    <h3>Formulário de Contacto</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nome Completo *</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Telefone</label>
+                            <input type="tel" id="phone" name="phone" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company" class="form-label">Empresa</label>
+                            <input type="text" id="company" name="company" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Área de Interesse</label>
+                            <select id="subject" name="subject" class="form-input">
+                                <option value="">Selecione uma área</option>
+                                <option value="corporate">Direito Societário</option>
+                                <option value="labor">Direito do Trabalho</option>
+                                <option value="real-estate">Direito Imobiliário</option>
+                                <option value="intellectual">Propriedade Intelectual</option>
+                                <option value="tax">Direito Fiscal</option>
+                                <option value="litigation">Contencioso</option>
+                                <option value="other">Outra</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensagem *</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required placeholder="Descreva brevemente a sua situação ou questão..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label style="display: flex; align-items: center; gap: 0.5rem;">
+                                <input type="checkbox" required>
+                                <span>Aceito a <a href="#" style="color: var(--accent-color);">política de privacidade</a> e autorizo o tratamento dos meus dados pessoais.</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="form-button">Enviar Mensagem</button>
+                    </form>
+                </div>
+                
+                <!-- Additional Info -->
+                <div class="fade-in">
+                    <h3>Como Podemos Ajudar</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-consultation"></i>
+                        </div>
+                        <div>
+                            <h4>Consulta Inicial</h4>
+                            <p>Oferecemos uma primeira consulta para avaliar a sua situação e apresentar as melhores soluções.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Resposta Rápida</h4>
+                            <p>Comprometemo-nos a responder a todas as solicitações num prazo máximo de 24 horas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div>
+                            <h4>Abordagem Personalizada</h4>
+                            <p>Cada cliente é único. Adaptamos a nossa estratégia às suas necessidades específicas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Confidencialidade</h4>
+                            <p>Garantimos total confidencialidade e proteção dos seus dados e informações.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Localização</h2>
+            </div>
+            
+            <div class="text-center">
+                <!-- Lisboa Map -->
+                <div class="fade-in">
+                    <h3>Escritório de Lisboa</h3>
+                    <div style="width: 100%; max-width: 800px; margin: 0 auto 1rem; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d778.0510267527123!2d-9.146823242839812!3d38.73607823859326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19330a602cf2c7%3A0xba5e8be0b82bf0d2!2sAffidea%20Saldanha!5e0!3m2!1spt-PT!2spt!4v1753131460768!5m2!1spt-PT!2spt" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div style="max-width: 600px; margin: 0 auto;">
+                        <p><strong>Transportes Públicos:</strong><br>
+                        Metro: Estação Saldanha (Linhas Azul e Vermelha)<br>
+                        Autocarros: 1, 36, 44, 83<br>
+                        Parque de estacionamento nas proximidades</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section" style="background-color: var(--accent-color); color: white;">
+        <div class="container">
+            <div class="text-center fade-in">
+                <h2 style="color: white; margin-bottom: 1rem;">Subscreva a Nossa Newsletter</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem;">
+                    Receba as últimas atualizações jurídicas e insights da nossa equipa.
+                </p>
+                
+                <form class="newsletter-form" style="max-width: 500px; margin: 0 auto; display: flex; gap: 1rem;">
+                    <input type="email" placeholder="O seu email" class="form-input" style="flex: 1;" required>
+                    <button type="submit" class="cta-button" style="background-color: white; color: var(--accent-color);">Subscrever</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Joaquim Oliveira & Associados</h4>
+                    <p>"A sua bússola no mundo jurídico."</p>
+                    <p>Sociedade de advogados de referência em Portugal, especializada em direito empresarial e assessoria jurídica integral.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Áreas de Prática</h4>
+                    <ul class="footer-links">
+                        <li><a href="areas/corporate.html">Direito Societário</a></li>
+                        <li><a href="areas/labor.html">Direito do Trabalho</a></li>
+                        <li><a href="areas/real-estate.html">Direito Imobiliário</a></li>
+                        <li><a href="areas/intellectual.html">Propriedade Intelectual</a></li>
+                        <li><a href="areas/tax.html">Direito Fiscal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>A Firma</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">Sobre Nós</a></li>
+                        <li><a href="team.html">A Equipa</a></li>
+                        <li><a href="careers.html">Carreiras</a></li>
+                        <li><a href="news.html">Notícias</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contactos</h4>
+                    <div>
+                        <p><strong>Lisboa</strong></p>
+                        <p>Av. da Liberdade, 123<br>1250-140 Lisboa</p>
+                        <p>Tel: +351 213 144 434</p>
+                        <p>Email: geral@joaquimoliveira.pt</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> Joaquim Oliveira & Associados, Sociedade de Advogados, RL. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

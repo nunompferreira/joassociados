@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "WebFetch(domain:pra.pt)"
+    ],
+    "deny": []
+  }
+}
