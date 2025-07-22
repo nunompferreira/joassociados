@@ -113,6 +113,7 @@ p {
     font-weight: 300;
     color: var(--text-white);
     letter-spacing: -0.01em;
+    margin-left: 20px;
 }
 
 .logo a {
@@ -219,14 +220,11 @@ p {
 
 .hero-video video {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: -2;
-    transform: translateX(-50%) translateY(-50%);
     object-fit: cover;
 }
 
@@ -603,6 +601,15 @@ p {
         background-color: rgba(255, 255, 255, 0.1);
     }
     
+    .hero-video {
+        height: 100vh;
+        min-height: 600px;
+    }
+    
+    .hero-content {
+        padding: 0 2rem;
+    }
+    
     .alt-content {
         grid-template-columns: 1fr;
         gap: 3rem;
@@ -646,6 +653,15 @@ p {
     
     .hero-subtitle {
         font-size: 1.2rem;
+    }
+    
+    .hero-video {
+        height: 100vh;
+        min-height: 500px;
+    }
+    
+    .hero-content {
+        padding: 0 1rem;
     }
     
     .alt-container {
