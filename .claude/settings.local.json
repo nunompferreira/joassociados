@@ -3,7 +3,9 @@
     "allow": [
       "Bash(ls:*)",
       "Bash(mkdir:*)",
-      "WebFetch(domain:pra.pt)"
+      "WebFetch(domain:pra.pt)",
+      "Bash(claude mcp:*)",
+      "Bash(find:*)"
     ],
     "deny": []
   }
